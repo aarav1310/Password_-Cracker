@@ -1,0 +1,19 @@
+#Install the required dependencies:
+
+pip install -r requirements.txt
+
+#Run the script:
+python password_cracker.py <password_hash> <wordlist_path>
+
+Replace `<password_hash>` with the hash of the password you want to crack and `<wordlist>` with the path to the wordlist file.
+
+# The script will attempt to crack the password and display the result.
+
+## Requirements
+
+- Python 3.x
+- `hashlib` module
+
+## License
+
+This project is licensed under the MIT License.
